@@ -4,7 +4,7 @@ using Rhino.Geometry;
 using System;
 using System.Collections.Generic;
 
-namespace PluginTemplate.PluginGrasshopper
+namespace LabradorGH.PluginGrasshopper
 {
     public class ExampleComponent : GH_Component
     {
@@ -18,7 +18,7 @@ namespace PluginTemplate.PluginGrasshopper
         public ExampleComponent()
           : base("ExampleComponent", "Nickname",
             "Description",
-            "PluginTemplate", "Example")
+            "LabradorGH", "Example")
         {
         }
 

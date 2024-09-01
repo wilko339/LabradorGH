@@ -1,7 +1,7 @@
 using System;
 using Rhino.Geometry;
 
-namespace PluginTemplate.SharedRhino
+namespace LabradorGH.SharedRhino
 {
 
     /// <summary>

@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using PluginTemplate.Shared;
+using LabradorGH.Shared;
 
-namespace PluginTemplate.Tests.Shared
+namespace LabradorGH.Tests.Shared
 {
     [TestClass]
     public class TestSharedExample

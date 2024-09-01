@@ -20,36 +20,37 @@
     <CommonVersionSuffix>-alpha</CommonVersionSuffix>
   </PropertyGroup>
   <!--
-    GUIDs for the Grasshopper and the Rhino Plug-In. Make sure to set these to unique values.
+    GUIDs for the Grasshopper Plug-In.
   -->
   <PropertyGroup>
-    <GrasshopperPluginGuid>00000000-0000-0000-0000-000000000000</GrasshopperPluginGuid>
-    <RhinoPluginGuid>00000000-0000-0000-0000-000000000000</RhinoPluginGuid>
+    <GrasshopperPluginGuid>bb7dc081-cbd6-49ce-ab8e-ed83b0ee8a57</GrasshopperPluginGuid>
   </PropertyGroup>
   <!--
     Common name and namespace for all projects. In case you change the namespace, please also do
     a search and replace operation on all code files.
   -->
   <PropertyGroup>
-    <CommonNamespace>PluginTemplate</CommonNamespace>
-    <CommonName>PluginTemplate</CommonName>
+    <CommonNamespace>LabradorGH</CommonNamespace>
+    <CommonName>LabradorGH</CommonName>
   </PropertyGroup>
   <!--
     Author, Company, Copyright, Product
   -->
   <PropertyGroup>
-    <CommonAuthors>Alex Schiftner</CommonAuthors>
-    <CommonAuthorContact>alex@shapediver.com</CommonAuthorContact>
-    <CommonCompany>ShapeDiver</CommonCompany>
-    <CommonCopyright>ShapeDiver GmbH 2024</CommonCopyright>
-    <CommonProduct>A template plug-in for Grasshopper and Rhino</CommonProduct>
+    <CommonAuthors>Toby Wilkinson</CommonAuthors>
+    <CommonAuthorContact>toby.wilkinson339@gmail.com</CommonAuthorContact>
+    <CommonCompany>Toby Wilkinson</CommonCompany>
+    <CommonCopyright>Toby Wilkinson</CommonCopyright>
+    <CommonProduct>A Grasshopper plugin for creating highly complex objects with voxels.</CommonProduct>
     <YakName>$(CommonName)</YakName>
     <YakAuthors>$(CommonAuthors), $(CommonCompany)</YakAuthors>
     <YakDescription>$(CommonProduct)</YakDescription>
-    <YakUrl>https://github.com/shapediver/GrasshopperPluginTemplate</YakUrl>
+    <YakUrl>https://github.com/shapediver/GrasshopperLabradorGH</YakUrl>
     <YakIconFile>$(MSBuildThisFileDirectory)/Artwork/PluginRhino_64.png</YakIconFile>
-    <YakKeywords>- Rhino
+    <YakKeywords>
 - Grasshopper
-- Template</YakKeywords>
+- Implicit
+- Design
+- Voxels</YakKeywords>
   </PropertyGroup>
 </Project>

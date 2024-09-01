@@ -11,7 +11,7 @@ if exists "C:\Program Files\Rhino 8\System\yak.exe""(
 ) 
 
 REM name of the solution to build
-set "Name=PluginTemplate"
+set "Name=LabradorGH"
 
 REM where to copy resulting yak packages
 set "YakTargetDir=bin\packages"

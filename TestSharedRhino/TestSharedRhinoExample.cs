@@ -2,9 +2,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Rhino.Geometry;
-using PluginTemplate.SharedRhino;
+using LabradorGH.SharedRhino;
 
-namespace PluginTemplate.Tests.SharedRhino
+namespace LabradorGH.Tests.SharedRhino
 {
     [TestClass]
     public class TestSharedRhinoExample
